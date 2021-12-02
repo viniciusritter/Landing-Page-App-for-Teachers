@@ -1,0 +1,98 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.3;
+}
+
+/* Estilos Header */
+header {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background-image: url(images/bg-pattern-intro-desktop.svg), linear-gradient(135deg, #FF8F71, #FF3E55);
+    background-position: 35% 35%;
+    background-size: 350%, 100%, 0% 0%;
+    border-bottom-left-radius: 100px;
+    background-repeat: no-repeat;
+    
+     
+   }
+
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.nav h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.nav img {
+
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    text-align: center;  
+      
+}
+
+#p1{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5rem 1rem 0 1rem;
+
+    
+}
+
+#p2{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;  
+    padding: 0 5rem 0 5rem;  
+    margin-bottom: 10px;
+}
+
+.botao-header a{
+    /*border: 1px solid blue;*/
+    text-decoration: none;
+    height: 10rem;
+    width: 40%;
+    align-self: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-radius: 5rem;
+    background-color: rgb(224, 224, 224);
+    color: hsl(356, 100%, 66%);
+    
+}
+.botao-header a:hover {
+    background-color: hsl(355, 100%, 74%);
+}
+
+
+
+
+/*<a href="#">Início</a>
+            <a href="#">Sobre o app</a>
+            <a href="#">FAQ</a>
+            <a href="#">Sobre a empresa</a>
+            <a href="#">Contato</a>
+            */
+
+
