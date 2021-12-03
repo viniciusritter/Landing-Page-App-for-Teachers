@@ -14,7 +14,7 @@ body {
 /* Estilos Header */
 
 .container {
-    width: 108%;
+    width: 100%;
     height: 600px;
     position: absolute;
     background-image: url(images/bg-pattern-intro-desktop.svg), linear-gradient(135deg, #FF8F71, #FF3E55);
@@ -80,7 +80,7 @@ body {
     background-color: hsl(355, 100%, 74%);
 }
 
-    /*Estilos seção 1*/
+/*Estilos seção 1*/
 
 .section1 {
     width: 100%;
@@ -95,13 +95,14 @@ body {
 .section1 h2 {
     font-size: 2.2rem;
     font-weight: 600;
-    padding: 10rem 2rem 0 2rem;
+    padding: 15rem 2rem 0 2rem;
     color: hsl(208, 49%, 24%)
 }
 
 .conteudo1 .editor-mobile {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     margin-bottom: 3rem;
+     
 }
 
 .texto-conteudo1 h3 {
@@ -121,6 +122,32 @@ h3 span {
     margin: 0 1rem 0 1rem;
 }
 
+/* Estilos seção middle */
+
+.celulares {
+    width: 100%;
+    position: relative;
+}
+
+.celulares img {
+    position: absolute;
+    width: 375px;
+    top: 0;
+    left: 0;
+    margin-top: 10rem;
+}
+
+.section-middle {
+    width: 100%;
+    height: 1086px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
 /* Estilos seção 2 */
 
 .section2 {
@@ -134,7 +161,7 @@ h3 span {
 }
 
 .conteudo2 .laptop-mobile {
-    padding: 0 0 0 1rem;
+    padding: 4rem 0 0 1rem;
 }
 
 .texto-conteudo2 h3 {
