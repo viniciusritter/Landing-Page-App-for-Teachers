@@ -1,9 +1,9 @@
-html{
+html {
     font-size: 100%;
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -12,20 +12,20 @@ body{
 }
 
 /* Estilos Header */
-header {
-    width: 100%;
+
+.container {
+    width: 108%;
     height: 600px;
     position: absolute;
     background-image: url(images/bg-pattern-intro-desktop.svg), linear-gradient(135deg, #FF8F71, #FF3E55);
     background-position: 35% 35%;
     background-size: 350%, 100%, 0% 0%;
     border-bottom-left-radius: 100px;
-    background-repeat: no-repeat;
-    
-     
+    background-repeat: no-repeat;  
    }
 
-header .nav{
+.container .nav {
+    
     display: flex;
     align-items: center;
     justify-content: space-around; 
@@ -37,11 +37,7 @@ header .nav{
     color: white;
 }
 
-.nav img {
-
-}
-
-.text-header{
+.text-header {
     display: flex;
     flex-direction: column;    
     justify-content: center;
@@ -49,7 +45,7 @@ header .nav{
       
 }
 
-#p1{
+#p1 {
     color: white;
     font-size: 20px;
     font-weight: 600;
@@ -58,7 +54,7 @@ header .nav{
     
 }
 
-#p2{
+#p2 {
     color: white;
     font-size: 20px;
     font-weight: 100;  
@@ -66,8 +62,7 @@ header .nav{
     margin-bottom: 10px;
 }
 
-.botao-header a{
-    /*border: 1px solid blue;*/
+.botao-header a {
     text-decoration: none;
     height: 10rem;
     width: 40%;
@@ -85,7 +80,75 @@ header .nav{
     background-color: hsl(355, 100%, 74%);
 }
 
+    /*Estilos seção 1*/
 
+.section1 {
+    width: 100%;
+    height: 1086px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 5rem 0 0 0;
+}
+
+.section1 h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 10rem 2rem 0 2rem;
+    color: hsl(208, 49%, 24%)
+}
+
+.conteudo1 .editor-mobile {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.texto-conteudo1 h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 2rem 0 2rem;
+    color: hsl(208, 49%, 24%)
+}
+
+h3 span {
+    display: block;
+}
+
+.texto-conteudo1 p {
+    color: hsl(207, 13%, 34%);
+    line-height: 1.5rem;
+    margin: 0 1rem 0 1rem;
+}
+
+/* Estilos seção 2 */
+
+.section2 {
+    width: 100%;
+    height: 1086px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0 0 0 0;
+}
+
+.conteudo2 .laptop-mobile {
+    padding: 0 0 0 1rem;
+}
+
+.texto-conteudo2 h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 2rem 0 2rem;
+    color: hsl(208, 49%, 24%)
+}
+
+.texto-conteudo2 p {
+    color: hsl(207, 13%, 34%);
+    line-height: 1.5rem;
+    margin: 0 1rem 0 1rem;
+}
 
 
 /*<a href="#">Início</a>
