@@ -203,25 +203,26 @@ h3 span {
 .texto-conteudo2 p {
     color: hsl(207, 13%, 34%);
     line-height: 1.5rem;
-    margin: 0 1rem 0 1rem;
+    margin: 0 1.5rem 0 1.5rem;
 }
 
 /* Estilos footer*/
 
 .footer {
-    height: 500px;
+    height: 320px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 90px;
 }
 
 .footer h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5rem;
     color: white;
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .footer img{
@@ -242,6 +243,8 @@ h3 span {
     margin: 1 0 19rem 0;
     
 }
+
+
 
 /*<a href="#">Início</a>
             <a href="#">Sobre o app</a>
