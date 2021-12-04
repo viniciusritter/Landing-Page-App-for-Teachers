@@ -139,14 +139,43 @@ h3 span {
 
 .section-middle {
     width: 100%;
-    height: 1086px;
+    height: 450px;
+    margin-top: 21rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-self: center;
+    background-image: url(images/bg-pattern-circles.svg), linear-gradient(#2C2D3F,#3F4164);
+    background-size: 163%, 100%;
+    background-position: 50% 170%, 0%;
+    background-repeat: no-repeat, no-repeat;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+
 }
 
+.texto-conteudo-middle {
+    margin-top: 10rem;
+    
+}
 
+.texto-conteudo-middle h3 {
+    color: white;
+    font-size: 1.8rem;
+    padding: 2rem 2rem 0 2rem;
+    
+    
+}
+
+.texto-conteudo-middle p {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 2rem 2rem 0 2rem;
+    
+}
 
 /* Estilos seção 2 */
 
@@ -161,7 +190,7 @@ h3 span {
 }
 
 .conteudo2 .laptop-mobile {
-    padding: 4rem 0 0 1rem;
+    padding: 0 0 0 1rem;
 }
 
 .texto-conteudo2 h3 {
@@ -177,6 +206,42 @@ h3 span {
     margin: 0 1rem 0 1rem;
 }
 
+/* Estilos footer*/
+
+.footer {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(240, 10%, 16%);
+}
+
+.footer h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 4rem;
+}
+
+.footer img{
+    transform: scale(30%);
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+   
+}
+
+.footer h5{
+    color: hsl(240, 2%, 79%);
+    margin: 1rem 0 0 0;
+}
+
+.footer h6{
+    color: hsl(240, 2%, 79%);
+    margin: 1 0 19rem 0;
+    
+}
 
 /*<a href="#">Início</a>
             <a href="#">Sobre o app</a>
