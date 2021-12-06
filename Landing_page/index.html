@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="forms.js"></script>
     <title>Presente, prof!</title>
 </head>
 <body>
@@ -70,9 +71,28 @@
                     <p>placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder</p>
                     <h3>FAQ</h3>
                     <p>placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder</p>
+                    <h3>Contato</h3>
                 </div>
             </div>   
         </section>
+
+        <!-- Formulário de contato -->
+
+        <form id="form" onsubmit="validacaoForm()" method="post" novalidade>
+            
+            <div>
+                <label class="nomeEmail"><b>E-Mail</b></label>
+                <br><br>
+                <input type="email" id="email" placeholder="E-Mail">
+                <br>
+                <label class="nomeMensagem"><br><b>Mensagem</b></label>
+                <br><br>
+                <textarea name="message" id="textArea" rows="5" cols="30" placeholder="Olá! Escreva aqui sua mensagem..."></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
 
          <!-- Footer -->
 
@@ -81,14 +101,9 @@
             <button style="font-size:24px"><i class="fa fa-whatsapp"></i></button>
             <h5>Termos de uso</h5>
             <h5>Políticas de uso</h5>
-            <h6>Powered by Daniele Prestes, João Alfredo Pires e Vinícius Ritter</h6>
+            <h6>Powered by Daniele Prestes, João Alfredo Pires, and Vinícius Ritter</h6>
             
          </div>     
     </div>
-        
-    
-
-    
-    <script src="forms.js"></script>
 </body>
 </html>
