@@ -23,14 +23,14 @@
             <!-- MENU -->
             <nav class="menu menu-hide">
                 <div class="fecha-botao">
-                    <img src="images/icon-close.svg" alt="Fecha menu">
+                    <img src="images/icon-close.png" alt="Fecha menu">
                 </div>
                 <div class="menu-wrapper">
                     <div class="abas-menu">
-                            <a href="#">Sobre o app</a>
-                            <a href="#">Sobre a empresa</a>
-                            <a href="#">FAQ</a>
-                            <a href="#">Contato</a>
+                            <a href="#anchor-sobre">Sobre o app</a>
+                            <a href="#anchor-empresa">Sobre a empresa</a>
+                            <a href="#anchor-faq">FAQ</a>
+                            <a href="#anchor-contato">Contato</a>
                     </div>
                 </div>
             </nav>
@@ -57,7 +57,7 @@
                 <h2>O caderno de chamada do futuro</h2>
                 <img class="editor-mobile" src="images/editor-mobile.png" alt="Imagem editor mobile">
                 <div class="texto-conteudo1">
-                    <h3><span>Sobre o app</span> Presente,<i> prof!</i></h3>
+                    <h3 id="anchor-sobre"><span>Sobre o app</span> Presente,<i> prof!</i></h3>
                     <p>placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder</p>
                     <h3>Placeholder</h3>
                     <p>placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder</p>
@@ -85,11 +85,11 @@
             <div class="conteudo2">
                 <img class="laptop-mobile" src="images/laptop-mobile.png" alt="Imagem laptop">
                 <div class="texto-conteudo2">
-                    <h3>Sobre a empresa</h3>
+                    <h3 id="anchor-empresa">Sobre a empresa</h3>
                     <p>placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder</p>
-                    <h3>FAQ</h3>
+                    <h3 id="anchor-faq">FAQ</h3>
                     <p>placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder</p>
-                    <h3>Contato</h3>
+                    <h3 id="anchor-contato">Contato</h3>
                 </div>
             </div>   
         </section>
@@ -135,6 +135,8 @@
             menu.classList.toggle('menu-hide');
             btnHamburger.classList.toggle('hamburger-hide');
         }
+       
+    
     </script>
 </body>
 </html>

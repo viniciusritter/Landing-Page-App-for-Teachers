@@ -94,13 +94,16 @@ body {
     align-items: center;
     justify-content: flex-start;
     transition: all 1s ease-in-out;
+    
 }
 
 .fecha-botao {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 82%;
+    width: 270%;
+    transform: scale(30%);
+    margin-top: -25px;    
 }
 
 .menu-wrapper {
