@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="forms.js"></script>
+    <script src="forms.js"></script>    
     <title>Presente, prof!</title>
+    <script> src="https://code.jquery.com/jquery-3.6.0.min.js"; integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="; crossorigin="anonymous"</script>
 </head>
 <body>
     <div class="container">
@@ -17,7 +18,24 @@
         <!-- Seção Header -->
 
         <div class="nav">
-            <h1>Presente, prof!</h1>
+            <h1>Presente, <i>prof!</i></h1>
+
+            <!-- MENU -->
+            <nav class="menu">
+                <div class="fecha-botao">
+                    <img src="images/icon-close.svg" alt="Fecha menu">
+                </div>
+                <div class="menu-wrapper">
+                    <div class="abas-menu">
+                            <a href="#">Sobre o app</a>
+                            <a href="#">Sobre a empresa</a>
+                            <a href="#">FAQ</a>
+                            <a href="#">Contato</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- FIM MENU -->
+
             <img src="images/icon-hamburger.svg" alt="Ícone do menu">
         </div>    
         <div class="text-header">
@@ -39,7 +57,7 @@
                 <h2>O caderno de chamada do futuro</h2>
                 <img class="editor-mobile" src="images/editor-mobile.png" alt="Imagem editor mobile">
                 <div class="texto-conteudo1">
-                    <h3><span>Sobre o app</span> <i>Presente, prof!</i></h3>
+                    <h3><span>Sobre o app</span> Presente,<i> prof!</i></h3>
                     <p>placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder</p>
                     <h3>Placeholder</h3>
                     <p>placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder</p>
@@ -97,7 +115,7 @@
          <!-- Footer -->
 
          <div class="footer">
-            <h1>Presente, prof!</h1>
+            <h1>Presente, <i>prof!</i></h1>
             <button style="font-size:24px"><i class="fa fa-whatsapp"></i></button>
             <h5>Termos de uso</h5>
             <h5>Políticas de uso</h5>
@@ -105,5 +123,18 @@
             
          </div>     
     </div>
+    <script>
+        const btnClose = document.querySelector('.fecha-botao');
+        const menu = document.querySelector('.menu');
+        const btnHamburger = document.querySelector('.hamburger');
+
+        btnClose.addEventListener('click', menuHideShow);
+        btnHamburger.addEventListener('click', menuHideShow);
+
+        function menuHideShow(){
+            menu.classList.toggle('menu-hide');
+            btnHamburger.classList.toggle('hamburger-hide');
+        }
+    </script>
 </body>
 </html>
