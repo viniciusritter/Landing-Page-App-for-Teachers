@@ -46,7 +46,7 @@
                     <p>Abandone já o papel com o <i>Presente, prof!</i> </p>
                 </div>
                 <div class="botao-header">
-                    <a href="#inicio">Comece agora</a>
+                    <a href="#anchor-inicio">Comece agora</a>
                 </div>         
         </div>
 
@@ -54,8 +54,9 @@
 
         <section class="section1">
             <div class="conteudo1">
-                <h2 id="inicio">O caderno de chamada do futuro</h2>
+                <h2 id="anchor-inicio">O caderno de chamada do futuro</h2>
                 <img class="editor-mobile" src="images/editor-mobile.png" alt="Imagem editor mobile">
+                <img class="editor-desktop" src="images/illustration-editor-desktop.svg" alt="Imagem editor desktop">
                 <div class="texto-conteudo1">
                     <h3 id="anchor-sobre"><span>Sobre o app</span> Presente,<i> prof!</i></h3>
                     <p>placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholder</p>
@@ -84,11 +85,14 @@
         <section class="section2">
             <div class="conteudo2">
                 <img class="laptop-mobile" src="images/laptop-mobile.png" alt="Imagem laptop">
+                <img class="laptop-desktop" src="images/illustration-laptop-desktop.svg" alt="Imagem laptop desktop">
                 <div class="texto-conteudo2">
                     <h3 id="anchor-empresa">Sobre a empresa</h3>
                     <p>placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder</p>
                     <h3 id="anchor-faq">FAQ</h3>
-                    <p>placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder</p>
+                    <p>placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder placeholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholderplaceholderplaceholder placeholder placeholder</p>
+                </div>
+                <div class="contato">
                     <h3 id="anchor-contato">Contato</h3>
                 </div>
             </div>   
@@ -96,20 +100,18 @@
 
         <!-- Formulário de contato -->
 
-        <form id="form" onsubmit="validacaoForm()" method="post" novalidade>
-            
+        <form id="form" onsubmit="validacaoForm()" method="post" novalidate>     
             <div>
                 <label class="nomeEmail"><b>E-Mail</b></label>
                 <br><br>
-                <input type="email" id="email" placeholder="E-Mail">
+                <input class="caixa-email" type="email" id="email" placeholder="E-Mail">
                 <br>
                 <label class="nomeMensagem"><br><b>Mensagem</b></label>
                 <br><br>
                 <textarea name="message" id="textArea" rows="5" cols="30" placeholder="Olá! Escreva aqui sua mensagem..."></textarea>
                 <br>
-                <input type="submit" value="Enviar">
+                <input class="botao-enviar" type="submit" value="Enviar">
             </div>
-
         </form>
 
          <!-- Footer -->
@@ -119,8 +121,7 @@
             <button style="font-size:24px"><i class="fa fa-whatsapp"></i></button>
             <h5>Termos de uso</h5>
             <h5>Políticas de uso</h5>
-            <h6>Powered by Daniele Prestes, João Alfredo Pires, and Vinícius Ritter</h6>
-            
+            <h6>Powered by Daniele Prestes, João Alfredo Pires, and Vinícius Ritter</h6> 
          </div>     
     </div>
     <script>
@@ -134,9 +135,7 @@
         function menuHideShow(){
             menu.classList.toggle('menu-hide');
             btnHamburger.classList.toggle('hamburger-hide');
-        }
-       
-    
+        }   
     </script>
 </body>
 </html>
