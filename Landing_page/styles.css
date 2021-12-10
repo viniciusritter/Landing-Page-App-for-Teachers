@@ -59,6 +59,10 @@ body {
     margin-bottom: 10px;
 }
 
+.botao-header {
+    margin-top: 3rem;
+}
+
 .botao-header a {
     text-decoration: none;
     height: 10rem;
@@ -70,7 +74,7 @@ body {
     font-weight: 700;
     border-radius: 5rem;
     background-color: rgb(224, 224, 224);
-    color: hsl(356, 100%, 66%);    
+    color: hsl(356, 100%, 66%);     
 }
 
 .botao-header a:hover {
@@ -319,6 +323,25 @@ textarea {
     letter-spacing: 1px;
 }
 
+.botao-enviar {
+    text-decoration: none;
+    height: 2rem;
+    width: 20%;
+    align-self: center;
+    font-size: 0.9rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-radius: 5rem;
+    background-color: rgb(224, 224, 224);
+    color: hsl(208, 49%, 24%);
+    margin-top: 0.6rem;
+    cursor: pointer;
+}
+
+.botao-enviar:hover {
+    background-color: hsl(355, 100%, 74%);
+}
+
 
 /* Estilos footer*/
 
@@ -409,6 +432,10 @@ textarea {
     padding: 0 5rem 1rem 5rem;  
 }
 
+.botao-header {
+    margin-top: 0;
+}
+
 .botao-header a {
     text-decoration: none;
     height: 10rem;
@@ -420,7 +447,8 @@ textarea {
     font-weight: 700;
     border-radius: 5rem;
     background-color: rgb(224, 224, 224);
-    color: hsl(356, 100%, 66%);    
+    color: hsl(356, 100%, 66%); 
+    cursor: pointer;   
 }
 
 .botao-header a:hover {
@@ -655,6 +683,7 @@ textarea {
     letter-spacing: 1px;
     transform: scale(150%);
     margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 .caixa-email {
@@ -665,20 +694,22 @@ textarea {
     text-decoration: none;
     height: 3rem;
     width: 10%;
+    margin-top: -1rem;
     align-self: center;
     font-size: 1.1rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     border-radius: 5rem;
     background-color: rgb(224, 224, 224);
-    color: hsl(356, 100%, 66%);    
+    color: hsl(208, 49%, 24%);
+    cursor: pointer;   
 }
 
-.botao-enviar a:hover {
+.botao-enviar:hover {
     background-color: hsl(355, 100%, 74%);
 }
 
-/* Footer*/
+/* Footer */
 
 .footer {
     height: 320px;
