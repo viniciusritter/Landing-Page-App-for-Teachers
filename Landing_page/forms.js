@@ -8,6 +8,11 @@ function validacaoForm(){
             return false
         } else {
             alert("Mensagem enviada!");
+            limpaCampos();
         }  
     } 
+}
+function limpaCampos(){
+    document.getElementById("email").value="";
+    document.getElementById("textArea").value="";
 }

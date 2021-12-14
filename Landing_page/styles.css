@@ -176,13 +176,13 @@ body {
     color: hsl(208, 49%, 24%)
 }
 
-.conteudo1 .editor-mobile {
+.conteudo1 .login-mobile {
     margin-top: 2.5rem;
     margin-bottom: 3rem;
     transform: scale(130%);
 }
 
-.conteudo1 .editor-desktop {
+.conteudo1 .login-desktop {
     display: none;
 }
 
@@ -267,14 +267,14 @@ h3 span {
     padding: 0 0 0 0;
 }
 
-.conteudo2 .laptop-mobile {
+.conteudo2 .carregamento-mobile {
     padding: 22rem 0 0 2rem;
     margin-top: 4rem;
     transform: scale(100%);
     align-self: center;
 }
 
-.conteudo2 .laptop-desktop {
+.conteudo2 .carregamento-desktop {
     display: none;
 }
 
@@ -383,7 +383,7 @@ textarea {
     margin: 1 0 19rem 0;   
 }
 
-/* MEDIAQUERY DESKTOP 1024PX */
+/* MEDIAQUERY 1024PX */
 
 @media screen and (min-width: 1024px){
 
@@ -535,11 +535,11 @@ textarea {
     color: hsl(208, 49%, 24%)
 }
 
-.editor-mobile, .laptop-mobile {
+.login-mobile, .carregamento-mobile {
     display: none;   
 }
 
-.conteudo1 .editor-desktop {
+.conteudo1 .login-desktop {
     position: absolute;
     left: 50%;
     bottom: -10%;
@@ -640,7 +640,7 @@ h3 span {
     margin: 0 1.5rem 3rem 1.5rem;
 }
 
-.conteudo2 .laptop-desktop {
+.conteudo2 .carregamento-desktop {
     position: absolute;
     overflow: hidden;
     left: 58%;
@@ -749,5 +749,372 @@ textarea {
     color: hsl(240, 2%, 79%);
     margin: 1 0 19rem 0;   
 }
+}
 
+/* MEDIAQUERY TELAS MAIORES */
+
+@media (min-width: 1200px){
+
+/* Header */
+
+.container {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-image: url(images/bg-pattern-intro-desktop.svg), linear-gradient(135deg, #FF8F71, #FF3E55);
+    background-position: 25% 52%;
+    background-size: 220%, 100%, 0% 0%;
+    border-bottom-left-radius: 100px;
+    background-repeat: no-repeat;  
+}
+
+.container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.nav h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.3rem;
+    color: white;
+    width: 40%;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    text-align: center;  
+}
+
+#p1 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2.5rem 1rem 0 1rem;
+}
+
+#p2 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 100;  
+    padding: 0 5rem 1rem 5rem;  
+}
+
+.botao-header {
+    margin-top: 0;
+}
+
+.botao-header a {
+    text-decoration: none;
+    height: 10rem;
+    width: 40%;
+    align-self: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-radius: 5rem;
+    background-color: rgb(224, 224, 224);
+    color: hsl(356, 100%, 66%); 
+    cursor: pointer;   
+}
+
+.botao-header a:hover {
+    background-color: hsl(355, 100%, 74%);
+}
+
+/* Menu */
+
+.menu {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: block;
+}
+
+.fecha-botao {
+    display: none;    
+}
+
+.menu-wrapper {
+    background-color: transparent;
+    width: 98%;
+    height: auto;
+    border-radius: 0;
+    margin-top: 0; 
+    box-shadow: none;  
+    flex-direction: row; 
+    justify-content: flex-end;
+}
+
+.abas-menu {
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 75%;
+}
+
+.abas-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.2rem;  
+}
+
+.abas-menu a:hover {
+    color: hsl(240, 2%, 79%);
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.menu-hide {
+    left: 0;
+    opacity: 1;   
+}
+
+.hamburger {
+    display: none;
+}
+
+/*Seção 1*/
+
+.section1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5rem 20rem 5rem;
+}
+
+.section1 h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 30rem 2rem 7rem 2rem;
+    color: hsl(208, 49%, 24%)
+}
+
+.login-mobile, .carregamento-mobile {
+    display: none;   
+}
+
+.conteudo1 .login-desktop {
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    display: block;
+    transform: scale(90%);
+    
+}
+
+.texto-conteudo1 {
+    width: 48%;
+}
+
+.texto-conteudo1 h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 0 2rem 0 2rem;
+    color: hsl(208, 49%, 24%)
+}
+
+h3 span {
+    display: block;
+}
+
+.texto-conteudo1 p {
+    color: hsl(207, 13%, 34%);
+    line-height: 1.3rem;
+    margin: 0 1rem 0 1rem;
+}
+
+/* Middle */
+
+.celulares img {
+    position: absolute;
+    left: 9%;
+    transform: scale(160%);
+    display: block;
+}
+
+.section-middle {
+    width: 100%;
+    height: 450px;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    background-image: url(images/bg-pattern-circles.svg), linear-gradient(#2C2D3F,#3F4164);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat, no-repeat;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.conteudo-middle {
+    width: 45%;
+    padding: 1rem 20rem 12rem 40rem;
+}
+
+.texto-conteudo-middle h3 {
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.texto-conteudo-middle p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 2rem 2rem 0 2rem;
+}
+
+/* Seção 2 */
+
+.section2 {
+    width: 100%;
+    height: 1000px;
+    padding: 6rem 0 0 3rem;
+}
+
+.texto-conteudo2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-conteudo2 h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 2rem 0 2rem;
+    color: hsl(208, 49%, 24%)
+}
+
+.texto-conteudo2 p {
+    display: flex;
+    align-self: flex-end;
+    color: hsl(207, 13%, 34%);
+    line-height: 1.5rem;
+    margin: 0 1.5rem 3rem 1.5rem;
+}
+
+.conteudo2 .carregamento-desktop {
+    position: absolute;
+    overflow: hidden;
+    left: 63%;
+    top: 400%;
+    display: block;
+    transform: scale(70%);
+}
+
+
+
+/* Formulário*/
+
+.conteudo2 .contato {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 2rem 6.5rem 0 0;
+    color: hsl(208, 49%, 24%)
+}
+
+#form {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+}
+
+.nomeEmail {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: hsl(208, 49%, 24%)
+}
+
+.nomeMensagem {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: hsl(208, 49%, 24%)
+}
+
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+    transform: scale(150%);
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.caixa-email {
+    transform: scale(150%);
+}
+
+.botao-enviar {
+    text-decoration: none;
+    height: 3rem;
+    width: 10%;
+    margin-top: -1rem;
+    align-self: center;
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    border-radius: 5rem;
+    background-color: rgb(224, 224, 224);
+    color: hsl(208, 49%, 24%);
+    cursor: pointer;   
+}
+
+.botao-enviar:hover {
+    background-color: hsl(355, 100%, 74%);
+}
+
+/* Footer */
+
+.footer {
+    height: 320px;
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(240, 10%, 16%);
+    border-top-right-radius: 90px;
+}
+
+.footer h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 3rem;
+}
+
+.footer img{
+    transform: scale(30%);
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+}
+
+.footer h5{
+    color: hsl(240, 2%, 79%);
+    margin: 1rem 0 0 0;
+}
+
+.footer h6{
+    color: hsl(240, 2%, 79%);
+    margin: 1 0 19rem 0;   
+}
 }
