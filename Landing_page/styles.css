@@ -172,13 +172,14 @@ body {
 .section1 h2 {
     font-size: 2.2rem;
     font-weight: 600;
-    padding: 15rem 2rem 0 2rem;
+    padding: 10rem 2rem 1rem 2rem;
     color: hsl(208, 49%, 24%)
 }
 
 .conteudo1 .editor-mobile {
     margin-top: 2.5rem;
     margin-bottom: 3rem;
+    transform: scale(130%);
 }
 
 .conteudo1 .editor-desktop {
@@ -214,9 +215,10 @@ h3 span {
     width: 375px;
     top: 0;
     left: 0;
-    margin-top: 10rem;
+    margin-top: rem;
     display: flex;
     align-self: center;
+    transform: scale(110%);
 }
 
 .section-middle {
@@ -267,7 +269,8 @@ h3 span {
 
 .conteudo2 .laptop-mobile {
     padding: 22rem 0 0 2rem;
-    transform: scale(90%);
+    margin-top: 4rem;
+    transform: scale(100%);
     align-self: center;
 }
 
@@ -303,7 +306,8 @@ h3 span {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 20rem;
+    padding-top: 25rem;
+    padding-bottom: 2rem;
 }
 
 .nomeEmail {
@@ -537,10 +541,10 @@ textarea {
 
 .conteudo1 .editor-desktop {
     position: absolute;
-    left: 42%;
-    top: 15%;
+    left: 50%;
+    bottom: -10%;
     display: block;
-    transform: scale(65%);
+    transform: scale(90%);
     
 }
 
@@ -569,9 +573,8 @@ h3 span {
 
 .celulares img {
     position: absolute;
-    left: 11%;;
-    bottom: 30%;
-    transform: scale(120%);
+    left: 9%;
+    transform: scale(160%);
     display: block;
 }
 
@@ -579,6 +582,7 @@ h3 span {
     width: 100%;
     height: 450px;
     margin-top: 7rem;
+    margin-bottom: 5rem;
     background-image: url(images/bg-pattern-circles.svg), linear-gradient(#2C2D3F,#3F4164);
     background-size: 100%;
     background-position: bottom;
@@ -589,7 +593,7 @@ h3 span {
 
 .conteudo-middle {
     width: 50%;
-    padding: 0 10rem 10rem 31rem;
+    padding: 1rem 20rem 12rem 32.5rem;
 }
 
 .texto-conteudo-middle h3 {
@@ -639,10 +643,10 @@ h3 span {
 .conteudo2 .laptop-desktop {
     position: absolute;
     overflow: hidden;
-    left: 42%;
+    left: 58%;
     top: 400%;
     display: block;
-    transform: scale(65%);
+    transform: scale(70%);
 }
 
 
