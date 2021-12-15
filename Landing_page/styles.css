@@ -25,7 +25,6 @@ body {
 }
 
 .container .nav {
-    
     display: flex;
     align-items: center;
     justify-content: space-around; 
@@ -268,7 +267,7 @@ h3 span {
 }
 
 .conteudo2 .carregamento-mobile {
-    padding: 22rem 0 0 2rem;
+    padding: 27rem 0 0 2rem;
     margin-top: 4rem;
     transform: scale(100%);
     align-self: center;
@@ -287,8 +286,9 @@ h3 span {
 
 .texto-conteudo2 p {
     color: hsl(207, 13%, 34%);
+    width: 90%;
     line-height: 1.5rem;
-    margin: 0 1.5rem rem 0rem;
+    margin-left: 1rem;
 }
 
 /* Estilos Formulário*/
@@ -297,7 +297,7 @@ h3 span {
     font-size: 1.3rem;
     font-weight: 600;
     padding: 2rem 2rem 0 2rem;
-    color: hsl(208, 49%, 24%)
+    color: hsl(208, 49%, 24%);
 }
 
 #form {
@@ -306,7 +306,7 @@ h3 span {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 25rem;
+    padding-top: 29rem;
     padding-bottom: 2rem;
 }
 
@@ -316,6 +316,10 @@ h3 span {
     color: hsl(208, 49%, 24%)
 }
 
+.caixa-email {
+    font-family: 'Overpass', sans-serif;
+}
+
 .nomeMensagem {
     font-size: 1.5rem;
     font-weight: 600;
@@ -323,6 +327,7 @@ h3 span {
 }
 
 textarea {
+    font-family: 'Overpass', sans-serif;
     font-size: .8rem;
     letter-spacing: 1px;
 }
@@ -635,7 +640,8 @@ h3 span {
 .texto-conteudo2 p {
     display: flex;
     align-self: flex-end;
-    color: hsl(207, 13%, 34%);
+    flex-direction: column;
+    color: hsl(210, 40%, 4%);
     line-height: 1.5rem;
     margin: 0 1.5rem 3rem 1.5rem;
 }
@@ -648,8 +654,6 @@ h3 span {
     display: block;
     transform: scale(70%);
 }
-
-
 
 /* Formulário*/
 
@@ -666,7 +670,7 @@ h3 span {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 7rem;
 }
 
 .nomeEmail {
@@ -683,6 +687,7 @@ h3 span {
 }
 
 textarea {
+    font-family: 'Overpass', sans-serif;
     font-size: .8rem;
     letter-spacing: 1px;
     transform: scale(150%);
@@ -691,6 +696,7 @@ textarea {
 }
 
 .caixa-email {
+    font-family: 'Overpass', sans-serif;
     transform: scale(150%);
 }
 
@@ -912,8 +918,7 @@ textarea {
     left: 50%;
     bottom: -10%;
     display: block;
-    transform: scale(90%);
-    
+    transform: scale(90%); 
 }
 
 .texto-conteudo1 {
@@ -1003,6 +1008,7 @@ h3 span {
 .texto-conteudo2 p {
     display: flex;
     align-self: flex-end;
+    flex-direction: column;
     color: hsl(207, 13%, 34%);
     line-height: 1.5rem;
     margin: 0 1.5rem 3rem 1.5rem;
@@ -1016,8 +1022,6 @@ h3 span {
     display: block;
     transform: scale(70%);
 }
-
-
 
 /* Formulário*/
 
@@ -1034,7 +1038,7 @@ h3 span {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 0;
+    padding-top: 7rem;
 }
 
 .nomeEmail {
@@ -1051,6 +1055,7 @@ h3 span {
 }
 
 textarea {
+    font-family: 'Overpass', sans-serif;
     font-size: .8rem;
     letter-spacing: 1px;
     transform: scale(150%);
@@ -1059,6 +1064,7 @@ textarea {
 }
 
 .caixa-email {
+    font-family: 'Overpass', sans-serif;
     transform: scale(150%);
 }
 
